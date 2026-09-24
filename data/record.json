@@ -1,0 +1,585 @@
+{
+  "schema": "tideline_public_record_v1",
+  "publisher": "JBPS Capital LLC",
+  "delay_days": 30,
+  "shown_through": "2026-08-25",
+  "first_session": "2026-07-27",
+  "sessions": 22,
+  "allocation_changes": [],
+  "entries": [
+    {
+      "as_of": "2026-08-25",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-25T18:10:09-04:00"
+    },
+    {
+      "as_of": "2026-08-24",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-24T18:10:04-04:00"
+    },
+    {
+      "as_of": "2026-08-21",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-21T18:10:05-04:00"
+    },
+    {
+      "as_of": "2026-08-20",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-20T18:10:08-04:00"
+    },
+    {
+      "as_of": "2026-08-19",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-19T18:10:05-04:00"
+    },
+    {
+      "as_of": "2026-08-18",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-18T18:10:11-04:00"
+    },
+    {
+      "as_of": "2026-08-17",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-17T18:10:04-04:00"
+    },
+    {
+      "as_of": "2026-08-14",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-14T18:10:04-04:00"
+    },
+    {
+      "as_of": "2026-08-13",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-13T18:10:08-04:00"
+    },
+    {
+      "as_of": "2026-08-12",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-12T18:10:04-04:00"
+    },
+    {
+      "as_of": "2026-08-11",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-11T18:10:09-04:00"
+    },
+    {
+      "as_of": "2026-08-10",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-10T18:10:08-04:00"
+    },
+    {
+      "as_of": "2026-08-07",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-07T18:10:09-04:00"
+    },
+    {
+      "as_of": "2026-08-06",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-06T18:10:06-04:00"
+    },
+    {
+      "as_of": "2026-08-05",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-05T18:10:14-04:00"
+    },
+    {
+      "as_of": "2026-08-04",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-04T18:10:05-04:00"
+    },
+    {
+      "as_of": "2026-08-03",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-03T18:10:07-04:00"
+    },
+    {
+      "as_of": "2026-07-31",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-07-31T18:10:07-04:00"
+    },
+    {
+      "as_of": "2026-07-30",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-07-30T18:10:08-04:00"
+    },
+    {
+      "as_of": "2026-07-29",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Not extended",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-07-29T18:10:06-04:00"
+    },
+    {
+      "as_of": "2026-07-28",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-07-28T18:10:11-04:00"
+    },
+    {
+      "as_of": "2026-07-27",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-07-27T18:10:04-04:00"
+    }
+  ],
+  "notes": "Published end-of-day model states, shown with a 30-day delay. A session appears only if its state was published; sessions without a publication are absent, not assumed unchanged. Hypothetical model allocations, not instructions for any account.",
+  "notice": "Tideline is an impersonal publication of JBPS Capital LLC. This model state is published identically to every Core subscriber on the same schedule; it is not individualized investment advice or a recommendation to buy or sell any security. Any use of it, manual or automated, is the subscriber's own decision. Hypothetical model allocations are not instructions for any account."
+}

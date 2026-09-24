@@ -1,0 +1,45 @@
+# Tideline public record — open dataset
+
+Every end-of-day model state that [Tideline](https://tideline.jbpscapital.com) has published, released here
+with a **30-day delay**, plus the daily ledger fingerprints and their independent timestamps.
+Updated automatically every Saturday. Tideline is a publication of JBPS Capital LLC.
+
+**Record shown through 2026-08-25 · 22 published sessions · 0 allocation change(s) · updated 2026-09-24**
+
+| File | What it is |
+|---|---|
+| `data/record.csv` | One row per published session: session date, the time Core members were notified (ET), market regime, extension, distance to next signal, allocation state, gross leverage, SPY/QQQ split |
+| `data/allocation_changes.csv` | Every allocation change in the delayed record (from → to) |
+| `data/record.json` | The same record, exactly as served at [tideline.jbpscapital.com/record.json](https://tideline.jbpscapital.com/record.json) |
+| `data/fingerprints.csv` / `.json` | Daily SHA-256 fingerprints of Tideline's private ledgers with their RFC 3161 and OpenTimestamps receipts |
+| `tools/verify_receipts.py` | Checks every RFC 3161 receipt against its fingerprint with OpenSSL (standard library only) |
+
+## How to read it
+
+- **Published states only.** A session appears only if its state was published at the time. Nothing is re-computed or back-filled; a missing session is absent, not assumed unchanged.
+- **The delay.** Core members receive each state the evening it is published (the `core_notified_et` column). The same state appears here, on the [public record page](https://tideline.jbpscapital.com/record) and through the free tier of Tideline's [MCP server](https://tideline.jbpscapital.com/agents) 30 days later.
+- **Vocabulary.** Allocation states: *Fully invested* (targets 1.5× gross equity exposure), *De-levered* (1.0×), *Probe* (0.5×), *Cash* (none). Definitions of every field: [guide](https://tideline.jbpscapital.com/guide) and [glossary](https://tideline.jbpscapital.com/glossary).
+- **This repository's history is itself a record.** Each weekly commit fixes what was public on that date.
+
+## Verify the timestamps yourself
+
+```
+python3 tools/verify_receipts.py            # downloads each .tsr receipt and runs openssl ts -verify
+python3 tools/verify_receipts.py --offline  # only checks the local fingerprint files
+```
+
+A valid receipt proves the fingerprint existed no later than the signed time. The ledgers themselves are
+private, so a receipt fixes the record in time; it does not by itself show the model's state. See
+[tideline.jbpscapital.com/verify](https://tideline.jbpscapital.com/verify).
+
+## Licence
+
+Data: [CC BY 4.0](LICENSE-DATA) — attribute "Tideline by JBPS Capital". Code: [MIT](LICENSE).
+
+## Important
+
+The allocations in this dataset are hypothetical model allocations, identical for every subscriber; they are
+not instructions for any account and not individualized investment advice. The model uses leverage, can suffer
+substantial losses and can underperform buy-and-hold. Tideline is an impersonal publication of JBPS Capital LLC,
+which is not a registered investment adviser or broker-dealer. See the
+[disclosures](https://tideline.jbpscapital.com/disclosures).
