@@ -2,11 +2,140 @@
   "schema": "tideline_public_record_v1",
   "publisher": "JBPS Capital LLC",
   "delay_days": 30,
-  "shown_through": "2026-08-25",
+  "shown_through": "2026-08-28",
   "first_session": "2026-07-27",
-  "sessions": 22,
+  "sessions": 25,
   "allocation_changes": [],
   "entries": [
+    {
+      "as_of": "2026-08-28",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-28T18:10:08-04:00"
+    },
+    {
+      "as_of": "2026-08-27",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Stretched",
+          "distance_to_next_signal": "Near"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-27T18:10:14-04:00"
+    },
+    {
+      "as_of": "2026-08-26",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on",
+          "extension": "Elevated",
+          "distance_to_next_signal": "Approaching"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-26T18:10:05-04:00"
+    },
     {
       "as_of": "2026-08-25",
       "signal_lines": [
@@ -28,6 +157,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -57,6 +203,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-24T18:10:04-04:00"
     },
     {
@@ -80,6 +243,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -109,6 +289,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-20T18:10:08-04:00"
     },
     {
@@ -132,6 +329,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -161,6 +375,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-18T18:10:11-04:00"
     },
     {
@@ -184,6 +415,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -213,6 +461,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-14T18:10:04-04:00"
     },
     {
@@ -236,6 +501,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -265,6 +547,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-12T18:10:04-04:00"
     },
     {
@@ -288,6 +587,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -317,6 +633,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-10T18:10:08-04:00"
     },
     {
@@ -340,6 +673,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -369,6 +719,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-06T18:10:06-04:00"
     },
     {
@@ -392,6 +759,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -421,6 +805,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-08-04T18:10:05-04:00"
     },
     {
@@ -444,6 +845,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -473,6 +891,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-07-31T18:10:07-04:00"
     },
     {
@@ -496,6 +931,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },
@@ -525,6 +977,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-07-29T18:10:06-04:00"
     },
     {
@@ -551,6 +1020,23 @@
           }
         ]
       },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
       "published_at": "2026-07-28T18:10:11-04:00"
     },
     {
@@ -574,6 +1060,23 @@
           {
             "ticker": "QQQ",
             "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
           }
         ]
       },

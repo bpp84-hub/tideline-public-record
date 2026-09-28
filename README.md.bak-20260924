@@ -1,10 +1,10 @@
 # Tideline public record — open dataset
 
-Every end-of-day model state that [Tideline](https://tideline.jbpscapital.com/?utm_source=github&utm_medium=referral&utm_campaign=open-data) has published, released here
+Every end-of-day model state that [Tideline](https://tideline.jbpscapital.com) has published, released here
 with a **30-day delay**, plus the daily ledger fingerprints and their independent timestamps.
 Updated automatically every Saturday. Tideline is a publication of JBPS Capital LLC.
 
-**Record shown through 2026-08-28 · 25 published sessions · 0 allocation change(s) · updated 2026-09-28**
+**Record shown through {shown_through} · {sessions} published sessions · {changes} allocation change(s) · updated {generated}**
 
 | File | What it is |
 |---|---|
@@ -17,19 +17,9 @@ Updated automatically every Saturday. Tideline is a publication of JBPS Capital 
 ## How to read it
 
 - **Published states only.** A session appears only if its state was published at the time. Nothing is re-computed or back-filled; a missing session is absent, not assumed unchanged.
-- **The delay.** Core members receive each state the evening it is published (the `core_notified_et` column). The same state appears here, on the [public record page](https://tideline.jbpscapital.com/record?utm_source=github&utm_medium=referral&utm_campaign=open-data) and through the free tier of Tideline's [MCP server](https://tideline.jbpscapital.com/agents?utm_source=github&utm_medium=referral&utm_campaign=open-data) 30 days later.
-- **Vocabulary.** Allocation states: *Fully invested* (targets 1.5× gross equity exposure), *De-levered* (1.0×), *Probe* (0.5×), *Cash* (none). Definitions of every field: [guide](https://tideline.jbpscapital.com/guide?utm_source=github&utm_medium=referral&utm_campaign=open-data) and [glossary](https://tideline.jbpscapital.com/glossary?utm_source=github&utm_medium=referral&utm_campaign=open-data).
+- **The delay.** Core members receive each state the evening it is published (the `core_notified_et` column). The same state appears here, on the [public record page](https://tideline.jbpscapital.com/record) and through the free tier of Tideline's [MCP server](https://tideline.jbpscapital.com/agents) 30 days later.
+- **Vocabulary.** Allocation states: *Fully invested* (targets 1.5× gross equity exposure), *De-levered* (1.0×), *Probe* (0.5×), *Cash* (none). Definitions of every field: [guide](https://tideline.jbpscapital.com/guide) and [glossary](https://tideline.jbpscapital.com/glossary).
 - **This repository's history is itself a record.** Each weekly commit fixes what was public on that date.
-
-## Use it
-
-```python
-import pandas as pd
-base = "https://raw.githubusercontent.com/bpp84-hub/tideline-public-record/main/data/"
-record = pd.read_csv(base + "record.csv", parse_dates=["session"])
-changes = pd.read_csv(base + "allocation_changes.csv", parse_dates=["session"])
-print(record.groupby("allocation_state").size())   # sessions spent in each published state
-```
 
 ## Verify the timestamps yourself
 
@@ -40,7 +30,7 @@ python3 tools/verify_receipts.py --offline  # only checks the local fingerprint 
 
 A valid receipt proves the fingerprint existed no later than the signed time. The ledgers themselves are
 private, so a receipt fixes the record in time; it does not by itself show the model's state. See
-[tideline.jbpscapital.com/verify](https://tideline.jbpscapital.com/verify?utm_source=github&utm_medium=referral&utm_campaign=open-data).
+[tideline.jbpscapital.com/verify](https://tideline.jbpscapital.com/verify).
 
 ## Licence
 
@@ -52,4 +42,4 @@ The allocations in this dataset are hypothetical model allocations, identical fo
 not instructions for any account and not individualized investment advice. The model uses leverage, can suffer
 substantial losses and can underperform buy-and-hold. Tideline is an impersonal publication of JBPS Capital LLC,
 which is not a registered investment adviser or broker-dealer. See the
-[disclosures](https://tideline.jbpscapital.com/disclosures?utm_source=github&utm_medium=referral&utm_campaign=open-data).
+[disclosures](https://tideline.jbpscapital.com/disclosures).
