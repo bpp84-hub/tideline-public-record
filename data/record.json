@@ -1,20 +1,100 @@
 {
   "schema": "tideline_public_record_v1",
   "publisher": "JBPS Capital LLC",
-  "delay_days": 30,
-  "shown_through": "2026-08-28",
+  "delay_days": 90,
+  "shown_through": "2026-09-01",
   "first_session": "2026-07-27",
-  "sessions": 25,
+  "sessions": 27,
   "allocation_changes": [],
   "entries": [
+    {
+      "as_of": "2026-09-01",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-09-01T18:10:07-04:00"
+    },
+    {
+      "as_of": "2026-08-31",
+      "signal_lines": [
+        {
+          "name": "Flagship · US Equity Indices",
+          "market_regime": "Risk-on"
+        }
+      ],
+      "allocation": {
+        "state": "Fully invested",
+        "gross_leverage": "1.5×",
+        "weights": [
+          {
+            "ticker": "SPY",
+            "weight": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "weight": "50%"
+          }
+        ]
+      },
+      "no_margin_line": {
+        "name": "No-margin line",
+        "state": "Fully invested",
+        "gross_exposure": "1.0×",
+        "invested": "100%",
+        "cash": "0%",
+        "exposures": [
+          {
+            "ticker": "SPY",
+            "exposure": "50%"
+          },
+          {
+            "ticker": "QQQ",
+            "exposure": "50%"
+          }
+        ]
+      },
+      "published_at": "2026-08-31T18:10:04-04:00"
+    },
     {
       "as_of": "2026-08-28",
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -55,9 +135,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -98,9 +176,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -141,9 +217,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -184,9 +258,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -227,9 +299,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -270,9 +340,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -313,9 +381,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -356,9 +422,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -399,9 +463,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -442,9 +504,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -485,9 +545,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -528,9 +586,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -571,9 +627,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -614,9 +668,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -657,9 +709,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -700,9 +750,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -743,9 +791,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -786,9 +832,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Stretched",
-          "distance_to_next_signal": "Near"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -829,9 +873,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -872,9 +914,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -915,9 +955,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -958,9 +996,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Not extended",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -1001,9 +1037,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -1044,9 +1078,7 @@
       "signal_lines": [
         {
           "name": "Flagship · US Equity Indices",
-          "market_regime": "Risk-on",
-          "extension": "Elevated",
-          "distance_to_next_signal": "Approaching"
+          "market_regime": "Risk-on"
         }
       ],
       "allocation": {
@@ -1083,6 +1115,6 @@
       "published_at": "2026-07-27T18:10:04-04:00"
     }
   ],
-  "notes": "Published end-of-day model states, shown with a 30-day delay. A session appears only if its state was published; sessions without a publication are absent, not assumed unchanged. Hypothetical model allocations, not instructions for any account.",
+  "notes": "Published end-of-day model states, shown with a 90-day delay; the daily extension and distance-to-next-signal readings are Core-only. A session appears only if its state was published; sessions without a publication are absent, not assumed unchanged. Hypothetical model allocations, not instructions for any account.",
   "notice": "Tideline is an impersonal publication of JBPS Capital LLC. This model state is published identically to every Core subscriber on the same schedule; it is not individualized investment advice or a recommendation to buy or sell any security. Any use of it, manual or automated, is the subscriber's own decision. Hypothetical model allocations are not instructions for any account."
 }
