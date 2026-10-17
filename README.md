@@ -4,7 +4,7 @@ Every end-of-day model state that [Tideline](https://tideline.jbpscapital.com/?u
 with a **90-day delay**, plus the daily ledger fingerprints and their independent timestamps.
 Updated automatically every Saturday. Tideline is a publication of JBPS Capital LLC.
 
-**Record shown through 2026-09-01 · 27 published sessions · 0 allocation change(s) · updated 2026-10-10**
+**Record shown through 2026-09-01 · 27 published sessions · 0 allocation change(s) · updated 2026-10-17**
 
 | File | What it is |
 |---|---|
