@@ -1,5 +1,20 @@
 {
-  "schema": "tideline_public_record_v1",
+  "schema": "tideline_public_record_v2",
+  "schema_changes": [
+    {
+      "version": 2,
+      "date": "2026-10-28",
+      "removed": [
+        "entries[].allocation.gross_leverage",
+        "entries[].no_margin_line.gross_exposure",
+        "entries[].no_margin_line.invested",
+        "entries[].no_margin_line.cash",
+        "entries[].no_margin_line.exposures",
+        "record.csv: gross_leverage"
+      ],
+      "note": "Exposure levels per state are delivered to Tideline Core; the public record keeps the state names. Earlier versions remain in this repository's history."
+    }
+  ],
   "publisher": "JBPS Capital LLC",
   "delay_days": 90,
   "shown_through": "2026-09-01",
@@ -17,7 +32,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -31,20 +45,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-09-01T18:10:07-04:00"
     },
@@ -58,7 +59,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -72,20 +72,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-31T18:10:04-04:00"
     },
@@ -99,7 +86,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -113,20 +99,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-28T18:10:08-04:00"
     },
@@ -140,7 +113,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -154,20 +126,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-27T18:10:14-04:00"
     },
@@ -181,7 +140,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -195,20 +153,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-26T18:10:05-04:00"
     },
@@ -222,7 +167,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -236,20 +180,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-25T18:10:09-04:00"
     },
@@ -263,7 +194,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -277,20 +207,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-24T18:10:04-04:00"
     },
@@ -304,7 +221,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -318,20 +234,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-21T18:10:05-04:00"
     },
@@ -345,7 +248,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -359,20 +261,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-20T18:10:08-04:00"
     },
@@ -386,7 +275,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -400,20 +288,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-19T18:10:05-04:00"
     },
@@ -427,7 +302,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -441,20 +315,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-18T18:10:11-04:00"
     },
@@ -468,7 +329,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -482,20 +342,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-17T18:10:04-04:00"
     },
@@ -509,7 +356,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -523,20 +369,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-14T18:10:04-04:00"
     },
@@ -550,7 +383,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -564,20 +396,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-13T18:10:08-04:00"
     },
@@ -591,7 +410,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -605,20 +423,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-12T18:10:04-04:00"
     },
@@ -632,7 +437,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -646,20 +450,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-11T18:10:09-04:00"
     },
@@ -673,7 +464,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -687,20 +477,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-10T18:10:08-04:00"
     },
@@ -714,7 +491,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -728,20 +504,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-07T18:10:09-04:00"
     },
@@ -755,7 +518,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -769,20 +531,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-06T18:10:06-04:00"
     },
@@ -796,7 +545,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -810,20 +558,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-05T18:10:14-04:00"
     },
@@ -837,7 +572,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -851,20 +585,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-04T18:10:05-04:00"
     },
@@ -878,7 +599,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -892,20 +612,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-08-03T18:10:07-04:00"
     },
@@ -919,7 +626,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -933,20 +639,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-07-31T18:10:07-04:00"
     },
@@ -960,7 +653,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -974,20 +666,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-07-30T18:10:08-04:00"
     },
@@ -1001,7 +680,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -1015,20 +693,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-07-29T18:10:06-04:00"
     },
@@ -1042,7 +707,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -1056,20 +720,7 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-07-28T18:10:11-04:00"
     },
@@ -1083,7 +734,6 @@
       ],
       "allocation": {
         "state": "Fully invested",
-        "gross_leverage": "1.5×",
         "weights": [
           {
             "ticker": "SPY",
@@ -1097,24 +747,11 @@
       },
       "no_margin_line": {
         "name": "No-margin line",
-        "state": "Fully invested",
-        "gross_exposure": "1.0×",
-        "invested": "100%",
-        "cash": "0%",
-        "exposures": [
-          {
-            "ticker": "SPY",
-            "exposure": "50%"
-          },
-          {
-            "ticker": "QQQ",
-            "exposure": "50%"
-          }
-        ]
+        "state": "Fully invested"
       },
       "published_at": "2026-07-27T18:10:04-04:00"
     }
   ],
-  "notes": "Published end-of-day model states, shown with a 90-day delay; the daily extension and distance-to-next-signal readings are Core-only. A session appears only if its state was published; sessions without a publication are absent, not assumed unchanged. Hypothetical model allocations, not instructions for any account.",
+  "notes": "Published end-of-day model states, shown with a 90-day delay; the daily extension and distance-to-next-signal readings and the exposure level of each state are Core-only. A session appears only if its state was published; sessions without a publication are absent, not assumed unchanged. Hypothetical model allocations, not instructions for any account.",
   "notice": "Tideline is an impersonal publication of JBPS Capital LLC. This model state is published identically to every Core subscriber on the same schedule; it is not individualized investment advice or a recommendation to buy or sell any security. Any use of it, manual or automated, is the subscriber's own decision. Hypothetical model allocations are not instructions for any account."
 }
